@@ -1,0 +1,75 @@
+        /* Import Google Font */
+        @import url('http://fonts.googleapis.com/css?family=Raleway:400,700,500');
+
+        /* General Styles */
+        body {
+            margin: 0;
+            background: #F7F7F7;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 400;
+            color: #282828;
+            line-height: 26px;
+            overflow-x: hidden; /* Prevent horizontal scrollbar */
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: 600;
+            font-family: 'Raleway', sans-serif;
+        }
+
+        a {
+            color: #45aed6;
+            transition: color 400ms, background-color 400ms;
+        }
+
+        a:hover, a:focus {
+            text-decoration: none;
+            color: #2a95be;
+        }
+
+        hr {
+            border-top: 1px solid #e5e5e5;
+            border-bottom: 1px solid #fff;
+        }
+
+        .section-header {
+            margin-bottom: 50px;
+        }
+
+        .section-header .section-title {
+            font-size: 44px;
+            color: #4F4F4F;
+            text-transform: uppercase;
+            border-bottom: 2px solid hsl(0, 92%, 63%);
+            display: inline-block;
+        }
+
+        .section-header .section-title:before {
+            content: "";
+            position: absolute;
+            width: 140px;
+            bottom: 0;
+            left: 50%;
+            margin-left: -70px;
+            height: 4px;
+        }
+
+        .col-sm-6 {
+            width: 50%;
+            box-sizing: border-box;
+        }
+
+        .wow.fadeInRight {
+            animation: fadeInRight 1s ease-out;
+        }
+
+        @keyframes fadeInRight {
+            0% { opacity: 0; transform: translateX(100%); }
+            100% { opacity: 1; transform: translateX(0); }
+        }
+
+        /* Prevent vertical overflow and scrollbar */
+        html, body {
+            height: 100%;
+            overflow-y: hidden; /* Prevent vertical scrollbar */
+        }
