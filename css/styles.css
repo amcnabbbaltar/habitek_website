@@ -258,8 +258,9 @@ background: #141414;
   color: #000;
 }
 #hero-banner{
-  background: #FFFFFF url('../images/banner/bg1.jpg') no-repeat 100% bottom;
-  background-size: 1000px auto;     
+  background: #FFFFFF url('../images/banner/bg1.jpg') no-repeat 50% bottom;
+  aspect-ratio: auto;
+  background-size:1500px auto;     
   }
 #hero-banner h2 {
   margin-top: 180px;
@@ -348,7 +349,7 @@ background: #141414;
 }
 #hero-banner h2, 
 #hero-banner p {
-color: #141414;
+color: #393939;
 }
 .media.service-box:hover .pull-left > i {  
 }
