@@ -262,12 +262,14 @@ background: #141414;
   aspect-ratio: auto;
   background-size:1500px auto;     
   }
-#hero-banner h2 {
-  margin-top: 180px;
-  font-size: 39px;
-  line-height: 49px;  
-  color: #fff;
-}
+  #hero-banner h2 {
+    margin-top: 180px;
+    font-size: 39px;
+    line-height: 49px;  
+    color: #000;
+    text-shadow: 6px 6px 6px rgba(143, 82, 82, 0.7);
+  }
+  
 #hero-banner.banner-inner h2 > span {
   color: #45aed6;
 }
