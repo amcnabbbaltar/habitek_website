@@ -563,8 +563,6 @@ border: 1px solid rgba(255, 255, 255, 0.2);
 margin: 0 8px;
 }
 
-
-
 #team .row {
   /* flexbox = instant equal-height columns */
   display: flex;
@@ -616,6 +614,7 @@ margin: 0 8px;
 .team-wrapper {
 overflow-x: hidden;
 position: relative;
+width:250px;
 -webkit-transition: all 0.2s ease;
 -moz-transition: all 0.2s ease;
 -ms-transform: all 0.2s ease;
