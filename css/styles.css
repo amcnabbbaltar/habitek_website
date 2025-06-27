@@ -320,6 +320,11 @@ background: #141414;
 #competitions {
   padding: 140px 0 75px;
 }
+#competitions .service-box img {
+    width: 150px;   /* Adjust this size as needed */
+    height: 100px;  /* Adjust this size as needed */
+    object-fit: contain;
+}
 .media.service-box {
   margin: 25px 0 36px;
   padding: 20px 15px 10px;
